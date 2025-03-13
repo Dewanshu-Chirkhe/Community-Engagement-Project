@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+# NGO Connection Web App
 
-## Project info
+A **Next.js & Tailwind CSS** web application that connects individuals with NGOs based on the issues they encounter. Users can report problems by posting text or images and selecting a relevant category, which notifies nearby NGOs.
 
-**URL**: https://lovable.dev/projects/ae974d8d-393b-4e32-adc1-fb37dc9b03f2
+## 🚀 Features
 
-## How can I edit this code?
+### 1. Landing Page
+- Showcases the **vision**: Connecting people with NGOs that can help them.
+- Features a **hero section** with a CTA button.
+- Lists **NGO categories** (Animal Welfare, Health, Disaster Relief, etc.).
+- Explains how the platform works.
 
-There are several ways of editing your application.
+### 2. Category Selection Page
+- Users choose the type of problem or NGO they need assistance from.
+- Displays NGO categories as interactive cards/buttons.
 
-**Use Lovable**
+### 3. Post an Issue Page
+- Users can **upload images** and **describe the problem**.
+- Dropdown to select **NGO category**.
+- Manual or auto-detect **location input**.
+- Submitting an issue triggers **email notifications** to relevant NGOs nearby.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ae974d8d-393b-4e32-adc1-fb37dc9b03f2) and start prompting.
+### 4. Contact Page
+- Users can **reach out** via a simple contact form.
+- Displays team contact details.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, Tailwind CSS
+- **Backend:** Next.js API routes
+- **Notifications:** Email alerts (Nodemailer or similar service)
 
-**Use your preferred IDE**
+## 📌 Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Community-Engagement-Project.git
+   cd Community-Engagement-Project
+   ```
+2. Install dependencies:
+   ```sh
+   npm install  # or yarn install
+   ```
+3. Run the development server:
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📧 Future Enhancements
+- **User authentication** (Sign-up/Login for tracking issues)
+- **NGO verification system** to list only genuine NGOs
+- **Impact tracking** to monitor issue resolution progress
+- **Crowdfunding integration** for urgent cases
+  
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ae974d8d-393b-4e32-adc1-fb37dc9b03f2) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+💡 **Idea:** Making NGO assistance more accessible to the public with a simple, intuitive web app. 🚀

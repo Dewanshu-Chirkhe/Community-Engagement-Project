@@ -14,7 +14,7 @@ import {
   Building,
   Briefcase,
   Dog,
-  Wheelchair,
+  HelpingHand,
   Mountain,
   UserCheck,
   Tractor,
@@ -116,7 +116,7 @@ export const categories = [
     id: "disability",
     title: "Elderly & Disability",
     description: "Support for elderly and differently-abled individuals",
-    icon: Wheelchair,
+    icon: HelpingHand,
     color: "bg-ngo-blue/10 text-ngo-blue",
     borderColor: "border-ngo-blue/20",
     imageUrl: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGluZGlhbiUyMGVsZGVybHl8ZW58MHx8MHx8fDA%3D"
